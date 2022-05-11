@@ -1,8 +1,15 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;EACjC,KAAK,EDFY,OAAO;ECGxB,gBAAgB,EDMF,OAAO;CCLxB;;AAED,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,GAAG;CACf;;AAED,AAAA,KAAK,CAAC;EACF,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,YAAY;CACtB;;AAED,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,QAAQ;CACpB;;AAED,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,KAAK;EACd,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;CACf;;ACzBD,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,MAAM;EACb,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;CACtB",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/utilits/_vars.scss",
+        "../sass/base/_common.scss",
+        "../sass/components/_container.scss",
+        "../sass/utilits/_hidden.scss",
+        "../sass/layout/_header.scss",
+        "../sass/layout/_hero.scss",
+        "../sass/layout/_logo.scss"
     ],
     "names": [],
     "file": "main.css"

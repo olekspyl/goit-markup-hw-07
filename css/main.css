@@ -1,1 +1,35 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #FFFFFF;
+}
+
+.list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.section {
+  padding: 94px 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*# sourceMappingURL=main.css.map */
