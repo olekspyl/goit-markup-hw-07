@@ -1,0 +1,59 @@
+@import "../utils/vars";
+
+.portfolio__btn-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio__btn-item:first-child {
+    margin-right: 8px;
+}
+
+.portfolio__btn-item:last-child {
+    margin-right: 8px;
+}
+
+.portfolio__btn-item+.portfolio__btn-item {
+    margin-right: 8px;
+}
+
+.portfolio__btn {
+    color: inherit;
+    background-color: $bcg-second-color;
+    text-align: center;
+    padding: 6px 22px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio__btn--choosen {
+    color: $btn-color;
+    background-color: $bcg-btn-color;
+    min-width: 73px;
+    text-align: center;
+    padding: 6px 22px;
+    margin-right: 8px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn--size-second {
+    min-width: 128px;
+}
+
+.btn--size-third {
+    min-width: 145px;
+}
+
+.btn--size-fourth {
+    min-width: 103px;
+}
+
+.btn--size-fifth {
+    min-width: 130px;
+}

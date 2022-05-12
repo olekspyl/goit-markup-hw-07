@@ -1,0 +1,30 @@
+@import "../utils/vars";
+
+.hero {
+    letter-spacing: 0.06em;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero__bcgi {
+    background-image: linear-gradient(rgba(47, 48, 58, .4), rgba(47, 48, 58, .4)),
+        url('../images/Imgbcg.jpg');
+    background-color: $bcg-accent-color;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1600px;
+    margin: 0px auto;
+}
+
+.hero__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    text-align: center;
+    color: $first-title-color;
+    margin: 0px auto 30px auto;
+}

@@ -1,11 +1,23 @@
-@import 'utilits/vars';
-@import 'base/common';
-@import 'components/container';
+@import "./utils/vars";
+@import "./components/common";
+@import "./components/container";
+@import "./components/header";
+@import "./utils/vars";
+@import "./components/logo";
+@import "./components/contacts";
+@import "./components/hero-index";
+@import "./utils/btn";
+@import "./components/hero-portfolio";
+@import "./utils/hidden";
+@import "./components/card";
+@import "./components/advantage";
+@import "./components/service";
+@import "./components/team";
+@import "./components/client";
+@import "./components/footer";
+@import "./utils/form";
+@import "./utils/backdrop";
+@import "./utils/modal";
 
-@import 'utilits/hidden';
 
 
-
-@import 'layout/header';
-@import 'layout/hero';
-@import 'layout/logo';

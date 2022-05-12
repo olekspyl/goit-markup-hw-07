@@ -1,0 +1,113 @@
+@import "../utils/vars";
+
+.footer {
+    background-color: $-bcg-accent-color;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__left-side {
+    margin-right: 70px;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+    display: block;
+    color: $-first-title-color;
+    padding: 0px;
+}
+
+.footer__address-item {
+    font-style: normal;
+    color: $-second-text-color;
+}
+
+.footer__address-item,
+.footer__contact-item {
+    margin-bottom: 9px;
+}
+
+.footer__contact-item:last-child {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.footer__mail,
+.footer__tel {
+    color: $-second-header-color;
+    display: flex;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__mail:hover,
+.footer__tel:hover,
+.footer__mail:focus,
+.footer__tel:focus {
+    color: $-accent-text-color;
+}
+
+.footer__medium {
+    margin-right: auto;
+}
+
+.footer__action {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: $-second-text-color;
+    margin: 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__list-icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.footer__item+.footer__item {
+    margin-left: 10px;
+}
+
+.footer__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__link:hover,
+.footer__link:focus {
+    background-color: $-bcg-btn-color;
+}
+
+.footer__icon {
+    fill: $-second-text-color;
+}
+
+.footer__link:hover .footer__icon {
+    fill: $-bcg-first-color;
+}
+
+.footer__link:focus .footer__icon {
+    fill: $-bcg-first-color;
+}

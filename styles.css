@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --first-header-color: #212121;
     --second-header-color: #757575;
     --first-title-color: #FFFFFF;
@@ -53,7 +53,7 @@ img {
 
 /* header */
 /* header-block */
-.header {
+/* .header {
     background-color: var(--bcg-header-color);
     font-weight: 500;
     font-size: 14px;
@@ -153,10 +153,10 @@ margin-left: 50px;
 
 .header__link:focus, .header__link:hover {
     color: var(--accent-text-color);
-}
+} */ */
 
 /* contacts-block */
-.contacts {
+/* .contacts {
     display: flex;
     margin-left: auto;
     }
@@ -194,12 +194,12 @@ margin-left: 50px;
 
 .contacts__icon:last-child {
     margin-right: 10px;
-}
+} */
 
 
 /* hero-index */
 /* hero-block */
-
+/* 
 .hero {
     letter-spacing: 0.06em;
     padding-top: 200px;
@@ -227,10 +227,10 @@ margin-left: 50px;
     text-align: center;
     color: var(--first-title-color);
     margin: 0px auto 30px auto;
-}
+} */
 
 /* btn-block */
-.btn {
+/* .btn {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -261,12 +261,12 @@ margin-left: 50px;
     color: var(--btn-color);
     background-color: var(--bcg-btn-color);
     padding: 10px 32px;
-}
+} */
 
 /* hero-portfolio */
 /* portfolio-block */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -334,11 +334,11 @@ margin-left: 50px;
 
 .btn--size-fifth {
     min-width: 130px;
-}
+} */
 
 
 /* cards-block */
-.card {
+/* .card {
 display: flex;
 flex-wrap: wrap;
 }
@@ -415,14 +415,14 @@ margin-bottom: 0px;
     text-align: left;
     color: var(--first-text-color);
     margin: 0px;
-}
+} */
 
 
 
 
 /* advantage */
 /* advantage-block */
-.advantage__list {
+/* .advantage__list {
     display: flex;
     flex-wrap: wrap;
     }
@@ -461,13 +461,13 @@ margin-bottom: 0px;
     line-height: 1.71;
     color: var(--first-text-color);
     margin: 0px;
-}
+} */
 
 
 
 /* service */
 
-.service {
+/* .service {
     padding-top: 0px;
 }
 
@@ -517,7 +517,7 @@ margin-bottom: 0px;
 /* team */
 /* team-block */
 
-.team {
+/* .team {
     background-color: var(--bcg-second-color);
     line-height: 1.19;
     text-align: center;
@@ -608,13 +608,13 @@ fill: var(--bcg-first-color);
 
 .team__link:focus .team__icon {
     fill: var(--bcg-first-color);
-}
+} */ 
 
 
 /* our-clients */
 /* client-block */
 
-.client__title {
+/* .client__title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -672,11 +672,11 @@ fill: var(--accent-text-color);
 
 .client__link:focus .client__icon {
     fill: var(--accent-text-color);
-}
+} */
 
 
 /* footer */
-.footer {
+/* .footer {
     background-color: var(--bcg-accent-color);
     font-size: 14px;
     line-height: 1.71;
@@ -782,11 +782,11 @@ fill: var(--accent-text-color);
 
 .footer__link:focus .footer__icon {
     fill: var(--bcg-first-color);
-}
+} */
 
 
 /* form-block */
-.form {
+/* .form {
     display: flex;
 }
 
@@ -848,23 +848,23 @@ fill: var(--accent-text-color);
 
 .form__icon {
     margin-left: 10px;
-}
+} */
 
 
 /* modal */
 /* modal-block */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top:0;
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.2);
     transition: opacity 300ms, visibility 300ms;
-}
+} */
 
 
-.modal {
+/* .modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1100,5 +1100,5 @@ margin-bottom: 20px;
         0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
