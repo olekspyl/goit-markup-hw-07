@@ -1,42 +1,41 @@
-@import "../utils/vars";
+.advantage {
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-.advantage__list {
-    display: flex;
-    flex-wrap: wrap;
-}
+    &__item {
+            font-size: 14px;
+            letter-spacing: 0.03em;
+            width: 270px;
+            margin-right: 30px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    
+    &__container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--bcg-second-color);
+            border-radius: 4px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            width: 270px;
+            height: 120px;
+        }
+    
+    &__title {
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin: 0px 0px 10px 0px;
+    }
 
-.advantage__item {
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    width: 270px;
-    margin-right: 30px;
-}
-
-.advantage__item:last-child {
-    margin-right: 0px;
-}
-
-.advantage__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $bcg-second-color;
-    border-radius: 4px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    width: 270px;
-    height: 120px;
-}
-
-.advantage__title {
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin: 0px 0px 10px 0px;
-}
-
-.advantage__description {
-    line-height: 1.71;
-    color: $first-text-color;
-    margin: 0px;
+    &__description {
+        line-height: 1.71;
+        color: var(--first-text-color);
+        margin: 0px;
+    }
 }

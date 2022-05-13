@@ -1,63 +1,74 @@
-@import "../utils/vars";
 
 .header {
-    background-color: $bcg-header-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     border-bottom: 1px solid #ECECEC;
+
+    &__container {
+            display: flex;
+    }
+
+    &__nav {
+        display: flex;
+    }
+
+    &__list {
+        position: relative;
+        display: flex;
+        margin-left: 93px;
+    }
+
+    &__item {
+        &:after {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            width: 48px;
+            height: 4px;
+            background-color: var(--accent-text-color);
+            opacity: 0;
+            border-radius: 2px;
+        }
+        &:hover::after {
+            opacity: 1;
+        }
+        &:nth-child(2)::after {
+            width: 76px;
+        }
+        &:last-child::after {
+            width: 67px;
+        }
+    }
+
+    &__current-item {
+        &::after {
+                position: absolute;
+                content: "";
+                bottom: 0;
+                width: 48px;
+                height: 4px;
+                background-color: var(--accent-text-color);
+                border-radius: 2px;
+                opacity: 1;
+        }
+    }
+
+    &__link {
+        color: var(--first-header-color);
+        padding: 32px 0px;
+        display: block;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover, &:focus {
+            color: var(--accent-text-color);
+        }
+    }
 }
 
-.header__container {
-    display: flex;
-}
 
-.header__nav {
-    display: flex;
-}
-.header__list {
-    position: relative;
-    display: flex;
-    margin-left: 93px;
-}
-
-.header__item+.header__item {
+.header__item + .header__item {
     margin-left: 50px;
-}
-
-.header__item:after {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    width: 48px;
-    height: 4px;
-    background-color: $accent-text-color;
-    opacity: 0;
-    border-radius: 2px;
-}
-
-.header__item:hover::after {
-    opacity: 1;
-}
-
-.header__item:nth-child(2)::after {
-    width: 76px;
-}
-
-.header__item:last-child::after {
-    width: 67px;
-}
-
-.header__current-item::after {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    width: 48px;
-    height: 4px;
-    background-color: $accent-text-color;
-    border-radius: 2px;
-    opacity: 1;
 }
 
 .header__current-item--size::after {
@@ -66,24 +77,11 @@
     bottom: 0;
     width: 76px;
     height: 4px;
-    background-color: $accent-text-color;
+    background-color: var(--accent-text-color);
     border-radius: 2px;
     opacity: 1;
 }
 
-.header__link {
-    color: $first-header-color;
-    padding: 32px 0px;
-    display: block;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
 .header__link--current {
-    color: $accent-text-color;
-}
-
-.header__link:focus,
-.header__link:hover {
-    color: $accent-text-color;
+    color: var(--accent-text-color);
 }

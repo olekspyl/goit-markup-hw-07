@@ -1,15 +1,13 @@
-@import "../utils/vars";
-
 .logo {
     display: flex;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: $first-header-color;
+    color: var(--first-header-color);
     padding: 24px 0px;
-}
 
-.logo__web {
-    color: $accent-text-color;
+    &__web {
+        color: var(--accent-text-color);
+    }
 }

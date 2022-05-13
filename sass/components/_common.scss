@@ -1,9 +1,8 @@
-@import "../utils/vars";
 
 body {
     font-family: "Roboto", sans-serif;
-    color: $first-header-color;
-    background-color: $bcg-first-color;
+    color: var(--first-header-color);
+    background-color: var(--bcg-first-color);
 }
 
 .list {
@@ -15,10 +14,7 @@ body {
 .link {
     text-decoration: none;
     color: currentColor;
-
 }
-
-
 
 .section {
     padding: 94px 0px;
